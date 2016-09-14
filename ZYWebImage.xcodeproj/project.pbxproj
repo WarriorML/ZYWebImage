@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024D9A9D1D88F81E006E6123 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 024D9A9C1D88F81E006E6123 /* Base64.m */; };
 		02E130981D88E70A002972A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130971D88E70A002972A1 /* main.m */; };
 		02E1309B1D88E70A002972A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E1309A1D88E70A002972A1 /* AppDelegate.m */; };
 		02E1309E1D88E70A002972A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E1309D1D88E70A002972A1 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		02E130A61D88E70A002972A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E130A41D88E70A002972A1 /* LaunchScreen.storyboard */; };
 		02E130B11D88E70A002972A1 /* ZYWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130B01D88E70A002972A1 /* ZYWebImageTests.m */; };
 		02E130BC1D88E70A002972A1 /* ZYWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130BB1D88E70A002972A1 /* ZYWebImageUITests.m */; };
+		02E130CB1D88E747002972A1 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130CA1D88E747002972A1 /* ImageManager.m */; };
+		02E130CE1D88E767002972A1 /* ImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130CD1D88E767002972A1 /* ImageOperation.m */; };
+		02E130D11D88E791002972A1 /* UIImageView+ZYWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E130D01D88E791002972A1 /* UIImageView+ZYWebCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024D9A9B1D88F81E006E6123 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		024D9A9C1D88F81E006E6123 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		02E130931D88E70A002972A1 /* ZYWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E130971D88E70A002972A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02E130991D88E70A002972A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		02E130B71D88E70A002972A1 /* ZYWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E130BB1D88E70A002972A1 /* ZYWebImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYWebImageUITests.m; sourceTree = "<group>"; };
 		02E130BD1D88E70A002972A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E130C91D88E747002972A1 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		02E130CA1D88E747002972A1 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		02E130CC1D88E767002972A1 /* ImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageOperation.h; sourceTree = "<group>"; };
+		02E130CD1D88E767002972A1 /* ImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageOperation.m; sourceTree = "<group>"; };
+		02E130CF1D88E791002972A1 /* UIImageView+ZYWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZYWebCache.h"; sourceTree = "<group>"; };
+		02E130D01D88E791002972A1 /* UIImageView+ZYWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZYWebCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024D9A9A1D88F81E006E6123 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				024D9A9B1D88F81E006E6123 /* Base64.h */,
+				024D9A9C1D88F81E006E6123 /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
 		02E1308A1D88E709002972A1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +122,17 @@
 		02E130951D88E70A002972A1 /* ZYWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				024D9A9A1D88F81E006E6123 /* Base64 */,
 				02E130991D88E70A002972A1 /* AppDelegate.h */,
 				02E1309A1D88E70A002972A1 /* AppDelegate.m */,
 				02E1309C1D88E70A002972A1 /* ViewController.h */,
 				02E1309D1D88E70A002972A1 /* ViewController.m */,
+				02E130C91D88E747002972A1 /* ImageManager.h */,
+				02E130CA1D88E747002972A1 /* ImageManager.m */,
+				02E130CC1D88E767002972A1 /* ImageOperation.h */,
+				02E130CD1D88E767002972A1 /* ImageOperation.m */,
+				02E130CF1D88E791002972A1 /* UIImageView+ZYWebCache.h */,
+				02E130D01D88E791002972A1 /* UIImageView+ZYWebCache.m */,
 				02E1309F1D88E70A002972A1 /* Main.storyboard */,
 				02E130A21D88E70A002972A1 /* Assets.xcassets */,
 				02E130A41D88E70A002972A1 /* LaunchScreen.storyboard */,
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024D9A9D1D88F81E006E6123 /* Base64.m in Sources */,
 				02E1309E1D88E70A002972A1 /* ViewController.m in Sources */,
+				02E130D11D88E791002972A1 /* UIImageView+ZYWebCache.m in Sources */,
 				02E1309B1D88E70A002972A1 /* AppDelegate.m in Sources */,
 				02E130981D88E70A002972A1 /* main.m in Sources */,
+				02E130CB1D88E747002972A1 /* ImageManager.m in Sources */,
+				02E130CE1D88E767002972A1 /* ImageOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +528,7 @@
 				02E130C21D88E70A002972A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02E130C31D88E70A002972A1 /* Build configuration list for PBXNativeTarget "ZYWebImageTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				02E130C51D88E70A002972A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02E130C61D88E70A002972A1 /* Build configuration list for PBXNativeTarget "ZYWebImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				02E130C81D88E70A002972A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
